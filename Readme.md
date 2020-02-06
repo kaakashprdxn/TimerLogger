@@ -4,7 +4,7 @@ Steps to Open TimeLogger App on your MAC
 
 2)Open Your Cloned Git Repo Folder on visual studio code
 
-3)Open the terminal on the clone folder and type npm --> to install project dependencies
+3)Open the terminal on the clone folder and type npm i --> to install project dependencies
 
 4)Then type cd ios on your terminal to go on ios folder of the repo
 
