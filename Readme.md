@@ -1,6 +1,6 @@
 Steps to Open TimeLogger App on your MAC
 
-1)Clone The Git Repo On Your System through git clone:'url'
+1)Clone The Git Repo On Your System through git clone https://github.com/kaakashprdxn/TimerLogger.git
 
 2)Type cd TimerLogger on your terminal
 
