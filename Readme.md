@@ -12,4 +12,4 @@ Steps to Open TimeLogger App on your MAC
 
 6)Then type cd .. on your terminal to move on project main folder 
 
-7)Then form main folder type npx react-native run-ios this will open your app on an iPhone device simulator
+7)Then from main folder type npx react-native run-ios this will open your app on an iPhone device simulator
