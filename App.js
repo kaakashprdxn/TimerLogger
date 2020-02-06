@@ -18,13 +18,13 @@ export default class TimerLogger extends Component {
   onSave =()=> {
     //React Native FileSystem Imported for Performing File_Manupulations
     let RNFS = require('react-native-fs')
-    const Path = RNFS.DocumentDirectoryPath + '/test.txt'
+    const Path = RNFS.DocumentDirectoryPath + '/timelogs.txt'
     RNFS.exists(Path)
     .then( success=> {
       if(success){
-        RNFS.appendFile(Path,'\r\n'+this.state.curTime,'utf8')
+        RNFS.appendFile(Path,`\r\n${this.state.curTime}`,'utf8')
       }else{
-       RNFS.writeFile(Path,this.state.curTime)
+       RNFS.writeFile(Path,`TimeLogs \r\n${this.state.curTime}`)
       }
     })
     .catch( err=> {
@@ -39,6 +39,7 @@ export default class TimerLogger extends Component {
           <Button
              onPress={this.onSave}
              title='Press Me'
+             color='#fff'
           />
         </View>
       </View>
@@ -54,8 +55,7 @@ const styles = StyleSheet.create({
   },
   
   buttonContainer: {
-    backgroundColor:'#abc9e8',
-    textDecorationColor:'red',
+    backgroundColor:'#0097dd',
     borderRadius:10,
     margin: 90,
   },
