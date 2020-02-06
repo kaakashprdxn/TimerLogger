@@ -13,3 +13,5 @@ Steps to Open TimeLogger App on your MAC
 6)Then type cd .. on your terminal to move on project main folder 
 
 7)Then from main folder type npx react-native run-ios this will open your app on an iPhone device simulator
+
+*(Location where our Timelog File is saved on mac:-/Users/macbookair/Library/Developer/CoreSimulator/Devices/0A7F3DD5-0049-4E62-89FA-926D785B551E/data/Containers/Data/Application/DA91E6EA-D206-4933-BF43-DFF9879C7A0A/Documents/timelogs.txt)
