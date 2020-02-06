@@ -23,6 +23,7 @@ export default class TimerLogger extends Component {
     .then( success=> {
       if(success){
         RNFS.appendFile(Path,`\r\n${this.state.curTime}`,'utf8')
+        console.log(`Location of the File ${Path}`)
       }else{
        RNFS.writeFile(Path,`TimeLogs \r\n${this.state.curTime}`)
       }
